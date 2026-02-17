@@ -1,40 +1,39 @@
+<script>
+  import Logo from "./Logo.svelte";
+</script>
+
 <nav>
   <div id="logo">
-    r3
+    <Logo />
   </div>
   <ul>
-    <li>About Me</li>
-    <li>Portfolio</li>
-    <li>Blog</li>
+    <li>ABOUT</li>
+    <li>PORTFOLIO</li>
+    <li>BLOG</li>
   </ul>
 </nav>
 
 <style>
   nav {
     display: flex;
-    border-bottom: 2px dashed gold;
+    border-bottom: 2px solid orange;
     width: 100%;
-    height: 8vh;
-    min-height: 50px;
+    height: 10vh;
+    min-height: 75px;
     justify-content: center;
     align-items: center;
-    /* background-color: #0a0034; */
+    background-color: #0a0034;
   }
 
   div#logo {
     display: flex;
     height: 100%;
+    font-size: 2em;
     flex: 0 0 120px;
     margin: 0;
     padding: 0;
     justify-content: center;
     align-items: center;
-  }
-
-  div#logo:hover {
-    background-color: rebeccapurple;
-    font-weight: bold;
-    color: orange;
   }
 
   ul {
@@ -46,6 +45,7 @@
     text-align: center;
     padding-left: 0;
     margin: 0;
+    font-weight: bold;
   }
   ul:last-child {
     margin-right: 120px;
@@ -60,4 +60,9 @@
     justify-content: center;
     align-items: center;
   }
+  li:hover {
+    text-decoration: underline;
+    color: orange;    
+  }
+
 </style>

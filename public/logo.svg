@@ -1,0 +1,18 @@
+<svg 
+  viewBox="0 0 10 10" 
+  class="logo"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <style>
+  text {
+    fill: white;
+    font-size: 10px;
+  }
+
+  .sup {
+    font-size:6px;
+  }
+</style>
+  <text x="1" y="9">r</text>
+  <text x="5" y="5" class="sup">3</text>
+</svg>

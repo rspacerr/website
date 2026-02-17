@@ -48,7 +48,6 @@ body {
 section#title {
   display: flex;
   flex-wrap: wrap;
-  background-color: #0a0034;
   width: 75%; 
 }
 
