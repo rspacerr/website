@@ -7,9 +7,10 @@
     <Logo />
   </div>
   <ul>
-    <li>ABOUT</li>
-    <li>PORTFOLIO</li>
-    <li>BLOG</li>
+    <li><a href="/about">ABOUT</a></li>
+    <li><a href="/blog">BLOG</a></li>
+    <li><a href="/portfolio">PORTFOLIO</a></li>
+    <li><a href="/misc">MISC</a></li>
   </ul>
 </nav>
 
@@ -50,6 +51,11 @@
   ul:last-child {
     margin-right: 120px;
   }
+  
+  li a {
+    color: white;
+    font-weight: bold;
+  }
 
   li {
     display: flex;
@@ -60,7 +66,7 @@
     justify-content: center;
     align-items: center;
   }
-  li:hover {
+  li a:hover {
     text-decoration: underline;
     color: orange;    
   }

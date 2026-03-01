@@ -47,7 +47,7 @@ body {
 }
 
 /* Title */
-section#title {
+section.title {
   display: flex;
   flex-wrap: wrap;
   width: 75%; 
