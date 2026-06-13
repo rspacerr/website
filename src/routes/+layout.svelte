@@ -6,7 +6,7 @@
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={logo} /></svelte:head>
+<svelte:head><link rel="icon" href={logo}/></svelte:head>
 
 <header>
   <Navbar />

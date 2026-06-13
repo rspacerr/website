@@ -7,27 +7,29 @@
     <Logo />
   </div>
   <ul>
-    <li><a href="/about">ABOUT</a></li>
-    <li><a href="/blog">BLOG</a></li>
-    <li><a href="/portfolio">PORTFOLIO</a></li>
-    <li><a href="/misc">MISC</a></li>
+    <li><a href="/about">about</a></li>
+    <li><a href="/blog">blog</a></li>
+    <li><a href="/portfolio">portfolio</a></li>
+    <li><a href="/misc">misc</a></li>
   </ul>
 </nav>
 
 <style>
   nav {
     display: flex;
-    border-bottom: 2px solid orange;
     width: 100%;
     height: 10vh;
+    background-color: #202020;
     min-height: 75px;
+
+    /* center navbar */
     justify-content: center;
     align-items: center;
-    background-color: #0a0034;
   }
 
   div#logo {
     display: flex;
+    width: 20%;
     height: 100%;
     font-size: 2em;
     flex: 0 0 120px;
@@ -38,7 +40,7 @@
   }
 
   ul {
-    width: 85%;
+    width: 80%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -47,9 +49,6 @@
     padding-left: 0;
     margin: 0;
     font-weight: bold;
-  }
-  ul:last-child {
-    margin-right: 120px;
   }
   
   li a {
