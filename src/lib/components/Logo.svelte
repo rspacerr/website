@@ -7,7 +7,7 @@
 </script>
 
 <svg 
-  viewBox="0 0 10 10" 
+  viewBox="0 0 3 3" 
   class="logo"
   xmlns="http://www.w3.org/2000/svg"
   role="button"
@@ -18,19 +18,21 @@
   tabindex="0"
   aria-label="Home"
 >
-  <text x="5.5" y="5.75">𝕣</text>
-  <text x="7" y="4.75" class="sup">3</text>
+  <text x="5%" y="50%">𝕣</text>
+  <text x="50%" y="30%" class="sup">3</text>
 </svg>
 
 <style>
   svg {
     cursor: pointer;
+    height: 1.8em;
   }
 
   text {
     fill: white;
     font-weight: bold;
     font-size: 3px;
+    dominant-baseline: middle;
   }
 
   .sup {

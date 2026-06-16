@@ -6,7 +6,7 @@
   <div id="logo">
     <Logo />
   </div>
-  <ul>
+  <ul >
     <li><a href="/about">about</a></li>
     <li><a href="/blog">blog</a></li>
     <li><a href="/portfolio">portfolio</a></li>
@@ -69,5 +69,4 @@
     text-decoration: underline;
     color: orange;    
   }
-
 </style>

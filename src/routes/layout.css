@@ -23,8 +23,7 @@ a:hover {
 
 #app, main {
   display: flex;
-  flex-wrap: wrap;
-  width: 75%;
+  width: 80%;
   height: 100%;
   margin: 0 auto;
   padding: 0 auto;
@@ -41,26 +40,29 @@ body {
   padding: 0 auto;
 }
 
-/* Title */
-section.title {
-  display: flex;
-  flex-wrap: wrap;
-}
-
+/* TODO: globals.css */
 .highlight {
   color: orange;
 }
 
-h1 {
-  font-size: 2.5em;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  width: 100%;
-  line-height: 1.1;
+/* Title */
+section.title-card {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-h2 {
+
+h1.title {
+  font-size: 2.5em;
   font-weight: bold;
+  margin: 0 auto;
+  width: 85%;
+}
+
+h2.splash {
+  width: 85%;
+  font-weight: bold;
+  margin: 1rem auto;
 }
 
 p {
