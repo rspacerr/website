@@ -19,7 +19,7 @@
   aria-label="Home"
 >
   <text x="5%" y="50%">𝕣</text>
-  <text x="50%" y="30%" class="sup">3</text>
+  <text x="55%" y="28%" class="sup">3</text>
 </svg>
 
 <style>
