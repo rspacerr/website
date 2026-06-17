@@ -3,13 +3,12 @@
 </script>
 
 <div id="error">
-<h1 id="error-status">
-  Error {page.status}
-</h1>
-<h2 id="error-message">
-  {page.error ? page.error.message : "Something unexpected happened, please check in later!"}
-</h2>
-
+  <h1 id="error-status">
+    Error {page.status}
+  </h1>
+  <h2 id="error-message">
+    {page.error ? page.error.message : "Something unexpected happened, please check in later!"}
+  </h2>
 </div>
 
 <style>
