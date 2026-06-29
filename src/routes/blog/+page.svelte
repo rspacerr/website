@@ -6,9 +6,9 @@
 </script>
 
 <h1>Blog</h1>
-<ul class="post-box">
+<ul class="post-list">
   {#each data.posts as post}
-  <li>
+  <li class="post-box">
     <h2 class="article-title">
       <a href={post.path}>{post.meta.title}</a>
     </h2>
