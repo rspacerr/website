@@ -1,0 +1,29 @@
+/* list of blogs */
+li {
+  list-style: none;
+}
+
+.description {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.article-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 100%;
+}
+
+.post-box {
+  width: 100%;
+  border: solid;
+  border-color: gold;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.date {
+  width: 100%;
+  margin: 0 auto;
+}

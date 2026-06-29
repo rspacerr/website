@@ -1,9 +1,10 @@
 ---
 title: Hello World
 date: '2026-06-17'
+description: This is a test description! 
 ---
 
-Is this thing on?
+Is this thing on? I suppose this is my *real* first blog post.
 
 I'm going to test all the different features.
 
